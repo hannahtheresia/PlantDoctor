@@ -17,7 +17,7 @@ checkBtn.addEventListener("click", async () => {
         messages: [
           {
             role: "system",
-            content: "You are a helpful plant doctor. Based on symptoms provided by the user, give a possible diagnosis and care tips."
+            content: "You are a professional botanist and plant expert.A person is describing a problem with their plant. Based on that, give:1. A short, clear diagnosis 2. A simple solution anyone can try. Be kind, clear, and avoid technical jargon. Your response should be well formatted making it look aesthetic. You can use emojis."
           },
           {
             role: "user",
